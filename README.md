@@ -36,3 +36,9 @@ constant factors.
 Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
+
+## Answer 
+
+In the best-case senario we get $\Theta(n)$ this happens because the input array is already sorted. Since the array is already
+in order the function only needs to iterate through the array once.
+
