@@ -43,13 +43,13 @@ In the best-case senario we get $\Theta(n)$ this happens because the input array
 in order, the function only needs to iterate through the array once making checks. In the worst-case we get $\Theta(n^{2})$.
 This case would be when the input array is in reverse order. Being in reverse order the function would need to iterate through the entire array
 making checks as well as making swaps at each iteration. The average case would be $\Theta(n^{2})$. This is because we want to determine the time complexity
-for the case which will most likely to occur. The most commen case would be an array that is partially sorted since the array is partially sorted the function 
-would have to iterate through the array $n$ times as well as make swaps. This would cause us to get a time complexity of $\theta(n^{2})$ since we are itterating through
+for the case which will most likely to occur. The most commen case would be an array that is partially sorted. Since the array is partially sorted the function 
+would have to iterate through the array as well as make swaps. This would cause us to get a time complexity of $\theta(n^{2})$ since we are itterating through
 the array and also making swaps. 
 
 ## Plagiarism Acknowledgment
 
-I started this project on my own then while testing I was getting a error for counterexample []. I was having trouble fixing it so looked at my repository form last semester.
+I started this project on my own, then while testing I was getting a error for counterexample []. I was having trouble fixing it so looked at my repository form last semester.
 https://github.com/COSC3020/reverse-insertion-sort-swilso59-1
 Turns out when I started working from the insertionSort code given I changed the name of the function in the code.js file so the code.test.js was failing. 
 
