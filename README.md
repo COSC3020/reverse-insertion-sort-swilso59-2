@@ -36,3 +36,30 @@ constant factors.
 Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
+
+## Answer 
+
+In the best-case senario we get $\Theta(n)$ this happens because the input array is already sorted. Since the array is already
+in order, the function only needs to iterate through the array once making checks. In the worst-case we get $\Theta(n^{2})$.
+This case would be when the input array is in reverse order. Being in reverse order the function would need to iterate through the entire array
+making checks as well as making swaps at each iteration. The average case would be $\Theta(n^{2})$. This is because we want to determine the time complexity
+for the case which will most likely to occur. The most commen case would be an array that is partially sorted. Since the array is partially sorted the function 
+would have to iterate through the array as well as make swaps. This would cause us to get a time complexity of $\theta(n^{2})$ since we are itterating through
+the array and also making swaps. 
+
+## Plagiarism Acknowledgment
+
+I started this project on my own, then while testing I was getting a error for counterexample []. I was having trouble fixing it so looked at my repository form last semester.
+https://github.com/COSC3020/reverse-insertion-sort-swilso59-1
+Turns out when I started working from the insertionSort code given I changed the name of the function in the code.js file so the code.test.js was failing. 
+
+I answered the question of average case time complexicty on my own. After I still had a look at what I had previously written in the same repository provided to compare my answer.
+
+“I certify that I have listed all sources used to complete this exercise, including the use
+of any Large Language Models. All of the work is my own, except where stated
+otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is
+suspected, charges may be filed against me without prior notice.”
+
+
+
+
